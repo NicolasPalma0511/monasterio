@@ -1,95 +1,51 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from './layout.module.css'
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-md-6 ms-5 text-left">
+        <p className={styles.textoNormal}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p className={styles.textoPequeñoBold}>Comprar ahora</p>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+      <div className="col-md-5 text-center">
+        <img
+          className="img-fluid float-md-right"
+          src="https://play.teleporthq.io/static/svg/default-img.svg"
+          alt="Imagen1"
         />
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+    </div>
+    <div className="row align-items-center">
+    <div className="col-md-5 text-center">
+        <img
+          className="img-fluid float-md-right"
+          src="https://play.teleporthq.io/static/svg/default-img.svg"
+          alt="Imagen1"
+        />
       </div>
-    </main>
+      <div className="col-md-6 text-end">
+        <p className={styles.textoNormal}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p className={styles.textoPequeñoBold}>Echa un vistazo</p>
+      </div>
+    </div>
+    <div className="container mt-5 align-items-center">
+      <h1 className={`text-center ${styles.titulo}`}>Productos Destacados</h1>
+      <div className="row">
+        <div className="col-sm-4 mt-4">
+          <img src="https://play.teleporthq.io/static/svg/default-img.svg" alt="Producto 1" className="img-fluid" />
+        </div>
+        <div className="col-sm-4 mt-4">
+          <img src="https://play.teleporthq.io/static/svg/default-img.svg" alt="Producto 2" className="img-fluid" />
+        </div>
+        <div className="col-sm-4 mt-4">
+          <img src="https://play.teleporthq.io/static/svg/default-img.svg" alt="Producto 3" className="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>
   )
 }

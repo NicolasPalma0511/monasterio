@@ -1,0 +1,151 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+.body{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+}
+.logo {
+  width: 176px;
+  height: 98px;
+  position: flex;
+}
+.textoNormalNav {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 20px !important;
+  font-style: Medium !important;
+  font-family: Montserrat !important;
+  line-height: 24px !important;
+  margin-left: 60px !important;
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+}
+.vectorNav {
+  width: 50px;
+}
+
+.vectorFoot {
+  width: 35px;
+  margin-left: 20px !important;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  color: #495057;
+  border-top: 1px solid #dee2e6;
+}
+
+.textoFooter a {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 20px !important;
+  font-style: Medium !important;
+  font-family: Montserrat !important;
+  line-height: 24px !important;
+  margin-left: 60px !important;
+  text-decoration: none !important;
+}
+
+.textoNormal {
+  color: #9a8877 !important;
+  font-size: 20px !important;
+  font-style: Medium !important;
+  font-family: Montserrat !important;
+  line-height: 24px !important;
+}
+
+.textoPequeño {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 15px !important;
+  font-style: Medium !important;
+  font-family: Montserrat !important;
+  line-height: 24px !important;
+}
+
+.textoPequeñoBold {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 15px !important;
+  font-style: Bold !important;
+  font-family: Montserrat !important;
+  font-weight: 700;
+  line-height: 24px !important;
+}
+
+.titulo {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 30px !important;
+  font-family: Montserrat !important;
+  font-weight: 600;
+  line-height: 24px !important;
+}
+
+.subtitulo {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 25px !important;
+  font-family: Montserrat !important;
+  font-weight: 600;
+  line-height: 24px !important;
+}
+
+.subtitulopequeño {
+  color: rgba(154, 136, 119, 0.5333333611488342) !important;
+  font-size: 20px !important;
+  font-family: Montserrat !important;
+  font-weight: 600;
+  line-height: 24px !important;
+}
+
+.imagenLarga {
+  width: 500px;
+  height: 700px;
+}
+
+.boton {
+  background-color: #e6e6e6 !important;
+  color: #9a8877 !important;
+  border-color: #e6e6e6;
+}
+
+.spacer {
+  margin-bottom: 150px;
+}
+
+.productoPrecio {
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+.productoFondo {
+  background-color: #f9f9f9;
+}
+
+.colorOption {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.color1 {
+  background-color: rgb(25, 25, 128);
+}
+
+.color2 {
+  background-color: rgb(0, 0, 0);
+}
+
+.color3 {
+  background-color: rgba(61, 61, 61, 0.158);
+}
+
+.imagenlook {
+  width: 350px;
+}
+
+.cuadro {
+  background-color: #ececec;
+}
+
+.decoracion {
+  text-decoration: none !important;
+}
